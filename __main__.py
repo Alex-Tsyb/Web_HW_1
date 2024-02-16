@@ -45,3 +45,5 @@ if __name__ == "__main__":
             bot.handle(action)
         if action == 'exit':
             break
+class Test:
+    pass
