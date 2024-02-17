@@ -6,6 +6,10 @@ RUN pip install pipenv
 
 COPY app /app
 
+COPY Pipfile /app
+COPY Pipfile.lock /app
+COPY requirements.txt /app
+
 WORKDIR /app
 
 ENTRYPOINT ["python3", "__main__.py"]
